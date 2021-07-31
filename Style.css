@@ -1,0 +1,20 @@
+#Black
+{
+    color: darkgray;
+}
+#BackgroundImageofNavbar
+{
+    position:relative;
+    margin:auto;
+    height: 45vw;
+    width: 100vw;
+    background-image:url(Images/bgofvanbar.png);
+    background-size:100%;
+}
+#Transperent
+{
+    background: transparent;
+}
+#Green{
+color: greenyellow;
+}
