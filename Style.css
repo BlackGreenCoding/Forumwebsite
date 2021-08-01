@@ -16,5 +16,26 @@
     background: transparent;
 }
 #Green{
-color: greenyellow;
+    color: greenyellow;
+}
+#GridImage
+{
+    height: 15vw;
+    width: 15vw;
+    background:url(Images/PythonImg.png);
+    background-size:100%,100%;
+    
+}
+#center
+{   
+    color: black;
+}
+#BackgroundImage
+{
+    position:relative;
+    margin:auto;
+    height: 50vw;
+    width: 50vw;
+    background-image:url(Images/bgofnav.png);
+    background-size:100%;
 }
