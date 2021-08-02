@@ -39,3 +39,25 @@
     background-image:url(Images/bgofnav.png);
     background-size:100%;
 }
+.AlineText
+{
+    text-align: center;
+}
+.background
+{
+    position: relative;
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("Images/pybackground.png");
+    background-size: 100%,100%;
+}
+.blackcolour
+{
+    background-color: black;
+}
+.greencolour
+{
+    color: greenyellow;
+}
+.bgGreen
+{
+    background-color: greenyellow;
+}
