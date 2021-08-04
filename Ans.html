@@ -2,68 +2,101 @@
 <html lang="en">
 
 <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
-        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-
-    <title>Hello, world!</title>
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/gh/highlightjs/cdn-release@11.2.0/build/styles/default.min.css">
+  <link rel="stylesheet" href="Style.css">
+  <title>Hello, world!</title>
 </head>
 
 <body>
-
-    <!-- #region Quation card -->
-    <div class="container">
-        <div class="card">
-            <h5 class="card-header bg-dark text-white">Language</h5>
-            <div class="card-body">
-                <h5 class="card-title">How to get component in c#</h5>
-                <p class="card-text">My code is com=getcomponent<--component-->();</p>
-            </div>
-        </div>
+  <!-- #region Quation card -->
+  <div class="container">
+    <div class="media">
+      <div class="media-body">
+        <h5 class="mt-0">Top-aligned media</h5>
+        <p>Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio,
+          vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec
+          lacinia congue felis in faucibus.</p>
+        <p>Donec sed odio dui. Nullam quis risus eget urna mollis ornare vel eu leo. Cum sociis natoque penatibus et
+          magnis dis parturient montes, nascetur ridiculus mus.</p>
+      </div>
     </div>
-    <!-- #endregion Quation card -->
+  </div>
+  <!-- #endregion Quation card -->
 
-    <div class="container my-3">
-        <div class="my-3">
-            <div class="media">
-                <div class="media-body">
-                    <h5 class="mt-0">Ans</h5>
-                    <p>add an object. com=this.getcomponent<>();
-                            and this.</p>
-                </div>
-            </div>
-            <hr>
-        </div>
+  <!-- #region Info Heading-->
+  <div class="container my-4">
+    <h3>Take a part in discusion</h3>
+  </div>
+  <!-- #endregion -->
+
+  <!-- #region submit quation-->
+  <div class="container my-4 bggrey ">
+    <form>
+      <div class="form-group">
+        <label for="image">image</label>
+        <input type="file" class="form-control bg0fsubans" id="image" accept="image/*">
+        <label for="Comments">Comments</label>
+        <textarea class="form-control bg0fsubans" id="Comments" placeholder="Comments"></textarea>
+        <label for="Code">Code</label>
+        <textarea class="form-control bg0fsubans" id="Code" placeholder="Code"></textarea>
+      </div>
+      <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+    <hr>
+  </div>
+  <!-- #endregion -->
+
+  <!-- #region Ans heading-->
+  <div class="container">
+    <h3>Ans</h3>
+  </div>
+  <!-- #endregion -->
+
+  <!-- #region show ans-->
+  <div class="container">
+    <div class="media  border-top border-dark">
+      <img class="mr-3 border border-dark my-4 ImageUserSize" src="Images/pybackground.png">
+      <div class="media-body my-4 border-left border-dark">
+        <h3 class="mt-0 bg0fsubans mx-3">Media heading</h3>
+        <p class="mt-0 bg0fsubans mx-3">Bootstrap 4 From Scratch With 5 Projects. Master Bootstrap 4 and build 5 real
+          world
+          themes while
+          learning HTML5 semantics & CSS3. Bestseller.
+          Front-End Web UI Frameworks and Tools: Bootstrap 4 ...https://www.coursera.org › learn › bootstrap-4
+          This course will give you an overview of client-side web UI frameworks, in particular Bootstrap 4. You will
+          learn about grids and responsive design, ...
+        </p>
+        
+        <img class="mr-3 mx-3 ImageSize" src="Images/PythonImg.png">
+      </div>
     </div>
+  </div>
+  <!-- #endregion -->
 
-    <div class="container">
-        <div class="form-group">
-            <form>
-                <label for="exampleFormControlTextarea1">Write Your Ans</label>
-                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-                <input type="submit" class="btn btn-success my-3">
-            </form>
-
-        </div>
-    </div>
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
 
 
-
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
-        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
-        crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
-        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
-        crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
-        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
-        crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script>
+  <script src="//cdn.jsdelivr.net/gh/highlightjs/cdn-release@11.2.0/build/highlight.min.js"></script>
+  <script>
+    hljs.initHighlightingOnLoad();
+  </script>
 </body>
 
 </html>

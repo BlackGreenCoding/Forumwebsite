@@ -61,3 +61,25 @@
 {
     background-color: greenyellow;
 }
+.bggrey
+{
+    background-color: rgb(233, 233, 233);
+}
+.bg0fsubans
+{
+    background-color: rgb(247, 247, 247);
+}
+.ImageUserSize
+{
+    position:relative;
+    height: 6vw;
+    width: 7vw;
+    background-size:100%;
+}
+.ImageSize
+{
+    position:relative;
+    height: 30vw;
+    width: 80vw;
+    background-size:100%;
+}
