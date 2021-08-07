@@ -1,3 +1,4 @@
+/* Old */
 #Black
 {
     color: darkgray;
@@ -69,20 +70,6 @@
 {
     background-color: rgb(247, 247, 247);
 }
-.ImageUserSize
-{
-    position:relative;
-    height: 6vw;
-    width: 7vw;
-    background-size:100%;
-}
-.ImageSize
-{
-    position:relative;
-    height: 30vw;
-    width: 80vw;
-    background-size:100%;
-}
 .pre {
     overflow-x: auto;
     white-space: pre-wrap;
@@ -95,4 +82,33 @@
 
     width: auto;
     overflow: auto;
+}
+
+
+/* Css For Answer Page*/
+
+
+
+.ImageUserSize
+{
+    position:relative;
+    height: 7vw;
+    width: 7vw;
+    border-radius: 50%;
+    background-size:100%;
+}
+.ImageSize
+{
+    position:relative;
+    max-width: 95%;
+    height: auto;
+    background-size:100%;
+}
+.bg-grey
+{
+    background-color: rgb(211, 210, 210);
+}
+.bg-Darkgrey
+{
+    background-color: rgb(162, 250, 162);
 }
