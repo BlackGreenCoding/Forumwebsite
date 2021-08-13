@@ -112,3 +112,125 @@
 {
     background-color: rgb(162, 250, 162);
 }
+
+/*about us css*/
+.SocialMidia
+{
+    position:relative;
+    height: 100%;
+    width: 100%;
+    padding: 0.4rem;
+    border-radius: 15%;
+    background-size:100%;
+}
+.SocialMidia:hover
+{
+    padding: 0.1rem;
+}
+
+.MaxWidth
+{
+    max-width:300px;
+}
+
+
+.animations
+{
+    animation-name: inherit;
+    animation: infinite;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+}
+
+.AboutImgSize
+{
+    position:relative;
+    width: 100%;
+    height: auto;
+    background-size:100%;
+}
+
+.aboutBgGray
+{
+background-color: rgb(62, 212, 25);
+padding-top: 0.5rem;
+padding-bottom: 0.5rem;
+}
+.GmailFont
+{
+    position: relative;
+    font-size: smaller;
+    width: 100%;
+}
+.AboutImageSize
+{
+    position:relative;
+    max-width: 100%;
+    height: auto;
+    background-size:100%;
+
+}
+.SlidMaxWidth
+{
+    max-width:600px;
+    
+}
+.bgfullBlack
+{
+    background-color: rgb(0, 0, 0);
+}
+.coloruPur
+{
+    color: rgb(62, 212, 25);
+}
+.colorufullBlack
+{
+    color: rgb(0, 0, 0);
+}
+.bglightgreen
+{
+    background-color: rgb(62, 212, 25);
+}
+.bgdarkgreen
+{
+    background-color: rgb(34, 161, 2);
+}
+
+.GreaintBack
+{
+    height: auto;
+    width: 100%;
+    background: linear-gradient(to top right, #000000, #31f34b);  
+
+}
+@keyframes example
+{
+    0% { background-position: left;}
+    100% { background-position: right;}
+    
+}
+@keyframes WordAnimation
+{
+
+}
+.textGrediant
+{
+    margin-top: 10%;
+    margin-bottom:10%;
+    text-align: center;
+    font-weight: bold;
+    color: white;
+}
+
+.bgAnimation
+{
+    background-image :linear-gradient(to top left,#000000,#018b01,#00f800);
+    background-size: 1000%;
+    background-position: left;
+    animation-name: example;
+    animation-delay: 1;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
