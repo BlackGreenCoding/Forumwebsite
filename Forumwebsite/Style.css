@@ -1,0 +1,345 @@
+/* Old */
+#Black
+{
+    color: darkgray;
+}
+#BackgroundImageofNavbar
+{
+    position:relative;
+    margin:auto;
+    height: 45vw;
+    width: 100vw;
+    background-image:url(Images/bgofvanbar.png);
+    background-size:100%;
+}
+#Transperent
+{
+    background: transparent;
+}
+#Green{
+    color: greenyellow;
+}
+#GridImage
+{
+    height: 15vw;
+    width: 15vw;
+    background:url(Images/PythonImg.png);
+    background-size:100%,100%;
+    
+}
+#center
+{   
+    color: black;
+}
+#BackgroundImage
+{
+    position:relative;
+    margin:auto;
+    height: 50vw;
+    width: 50vw;
+    background-image:url(Images/bgofnav.png);
+    background-size:100%;
+}
+.AlineText
+{
+    text-align: center;
+}
+.background
+{
+    position: relative;
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("Images/pybackground.png");
+    background-size: 100%,100%;
+}
+.blackcolour
+{
+    background-color: rgb(184, 177, 177);
+}
+.greencolour
+{
+    color: greenyellow;
+}
+.bgGreen
+{
+    background-color: greenyellow;
+}
+.bggrey
+{
+    background-color: rgb(233, 233, 233);
+}
+.bg0fsubans
+{
+    background-color: rgb(247, 247, 247);
+}
+.pre {
+    overflow-x: auto;
+    white-space: pre-wrap;
+    white-space: -moz-pre-wrap;
+    white-space: -pre-wrap;
+    white-space: -o-pre-wrap;
+    word-wrap: break-word;
+ }
+ .over{
+
+    width: auto;
+    overflow: auto;
+}
+
+
+/* Css For Answer Page*/
+
+
+
+.ImageUserSize
+{
+    position:relative;
+    height: 7vw;
+    width: 7vw;
+    border-radius: 50%;
+    background-size:100%;
+}
+.ImageSize
+{
+    position:relative;
+    max-width: 95%;
+    height: auto;
+    background-size:100%;
+}
+.bg-grey
+{
+    background-color: rgb(211, 210, 210);
+}
+.bg-Darkgrey
+{
+    background-color: rgb(162, 250, 162);
+}
+
+/*about us css*/
+.HeadofPage
+{
+    background:linear-gradient(rgba(0, 0, 0, 0.2));
+    background-image: url(Images/HeadImg.png);
+}
+
+.LastCon
+{
+    margin-top: 2%;
+}
+.row3div
+{
+    height: 100%;
+}
+.row2div
+{
+    margin-top: 2%;
+}
+.bigcol1
+{
+    
+}
+.midDiv
+{
+    margin-top: 2%;
+}
+
+.col7-1div
+{
+    position: relative;
+    background-color: #40342b;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position-y: center;
+    background-position-x: center;
+    
+}
+.col7-2div
+{
+    padding: 1%;
+}
+.col7-2img
+{
+    position: relative;
+    display: block;
+    width: 50%;
+    border-radius: 50%;
+    margin-left: 20%;
+    size: 100%;
+    
+}
+.col7div
+{
+    background-color: #40342b;
+}
+.col8duv
+{
+    background-size: 100%;
+}
+.col4div
+{
+    background-color: #ffffff;
+    
+}
+.col3div
+{
+    margin-right: 2%;
+    background-color: #afafab;
+}
+.col5div
+{
+    position: relative;
+    background-size: 100%;
+    height: auto;
+    margin-bottom: 2%;
+    background-color: #afafab;
+}
+.col6div
+{
+    height: auto;
+    position: relative;
+    background-size: 100%;
+    background-color: #a77f4f;
+}
+.col1div
+{
+    background-color: #40342b;
+}
+
+.col2div
+{
+    position: relative;
+    background-image: url(Images/LinkLogo.png) ;
+    background-size: 100%;
+    background-size: 100;
+    margin-left: 2%;
+    background-repeat: no-repeat;
+    background-position-y: center;
+    background-position-x: center;
+}
+
+
+.Col1txt1
+{
+    position: relative;
+    text-align: left;
+    margin-top: 47%;
+}
+
+.SocialMidia
+{
+    position:relative;
+    height: 100%;
+    width: 100%;
+    padding: 0.4rem;
+    border-radius: 15%;
+    background-size:100%;
+}
+.SocialMidia:hover
+{
+    padding: 0.1rem;
+}
+
+.MaxWidth
+{
+    max-width:300px;
+}
+
+
+.animations
+{
+    animation-name: inherit;
+    animation: infinite;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+}
+
+.AboutImgSize
+{
+    position:relative;
+    width: 100%;
+    height: auto;
+    background-size:100%;
+}
+
+.aboutBgGray
+{
+background-color: rgb(62, 212, 25);
+padding-top: 0.5rem;
+padding-bottom: 0.5rem;
+}
+.GmailFont
+{
+    position: relative;
+    font-size: smaller;
+    width: 100%;
+}
+.AboutImageSize
+{
+    position:relative;
+    max-width: 100%;
+    height: auto;
+    background-size:100%;
+
+}
+.SlidMaxWidth
+{
+    max-width:600px;
+    
+}
+.bgfullBlack
+{
+    background-color: #e5e5e5;
+}
+.coloruPur
+{
+    color: rgb(62, 212, 25);
+}
+.colorufullBlack
+{
+    color: rgb(0, 0, 0);
+}
+.bglightgreen
+{
+    background-color: rgb(62, 212, 25);
+}
+.bgdarkgreen
+{
+    background-color: rgb(34, 161, 2);
+}
+
+.GreaintBack
+{
+    height: auto;
+    width: 100%;
+    background: linear-gradient(to top right, #000000, #31f34b);  
+
+}
+@keyframes example
+{
+    0% { background-position: left;}
+    100% { background-position: right;}
+    
+}
+@keyframes WordAnimation
+{
+
+}
+.textGrediant
+{
+    margin-top: 10%;
+    margin-bottom:10%;
+    text-align: center;
+    font-weight: bold;
+    color: white;
+}
+
+.bgAnimation
+{
+    background-image :linear-gradient(to top left,#000000,#018b01,#00f800);
+    background-size: 1000%;
+    background-position: left;
+    animation-name: example;
+    animation-delay: 1;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
